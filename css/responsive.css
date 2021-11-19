@@ -1,0 +1,540 @@
+@media only screen and (max-width:1200px) {
+    .program-1 .content {
+        max-width: 460px;
+    }
+    .program-1 .section-img {
+        top: 50%;
+        left: 30%;
+    }
+    .program-2 .content {
+        max-width: 460px;
+    }
+    .section-flex {
+        padding: 0px 20px;
+    }
+    .section-3 {
+        margin-top: 400px;
+    }
+    .section-4 {
+        margin: 200px 0 0px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .program .content {
+        padding-left: 30px;
+    }
+    .program-1 .content {
+        max-width: 430px;
+    }
+    .program-2 .content {
+        max-width: 430px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:850px) {
+    .nav {
+        padding: 0 20px;
+    }
+    .section-7 {
+        padding: 0px 20px;
+        margin: 80px 0;
+    }
+}
+
+@media only screen and (max-width:786px) {
+    .nav {
+        width: 100%;
+        margin: 0px;
+        height: 80px;
+        justify-content: space-between;
+        padding-left: 20px!important;
+    }
+    .hamburger {
+        display: block;
+        /* margin-left:0px; */
+        z-index: 1000;
+    }
+    .logo-block {
+        position: sticky;
+    }
+    .logo {
+        max-width: 60px;
+    }
+    .side-menu ul {
+        margin: 0;
+        position: absolute;
+        padding: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40vh;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        transform: translateX(-120%);
+        transition: .2s;
+        z-index: 999!important;
+    }
+    .side-menu ul.active {
+        transform: translateX(0%);
+    }
+    /* *************  Section start   *************** */
+    .section-flex .section-left {
+        flex: 100%;
+    }
+    .section-flex .section-right {
+        flex: 100%;
+    }
+    /* ***************  Header start  ************ */
+    header .swiper-container {
+        height: 700px;
+    }
+    header .section-img-container .section-img {
+        max-height: 500px;
+    }
+    header .slider-content {
+        max-width: 500px;
+        padding: 50px 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    /* ***** Header end  ***** */
+    footer {
+        padding: 60px 20px 20px;
+    }
+    .section-flex {
+        padding: 0 20px;
+    }
+    header .slider-content p {
+        font-size: 14px;
+    }
+    header .slider-content h1 {
+        font-size: 32px;
+    }
+    .button {
+        font-size: 14px;
+    }
+    /* ******  Header end  ****** */
+    .section-3 {
+        padding: 30px 0 50px 0px;
+        margin-top: 200px;
+    }
+    .section-3 .category-block {
+        height: 220px;
+    }
+    .section-3 i {
+        font-size: 50px;
+    }
+    .section-3 .block-title {
+        font-size: 12px;
+    }
+    /* .section-3 .swiper-pagination {
+       padding-left: 0px;
+       text-align: center;
+     }
+
+     .section-3 .rectangle{
+      position: absolute;
+      top:-20%;
+      left: 0%;
+      width: 200px;
+      z-index: -1;
+    } */
+    /* **************   Section 5 start  ************* */
+    .section-5 {
+        padding: 20px;
+        height: 600px;
+    }
+    .section-5 .section-content h1 {
+        font-size: 30px;
+    }
+    .section-5 .section-content p {
+        padding: 0px;
+    }
+    .section-5 .section-cover {
+        top: 80%;
+        width: 95%;
+    }
+    /* **************   Section 4 start  ************ */
+    .section-4 {
+        margin-top: 0px;
+        padding: 40px 0;
+    }
+    .section-4 .title {
+        font-size: 35px;
+    }
+    /* ******************  Contact page  ********************** */
+    .contact-container .section-right {
+        margin-top: 60px;
+    }
+    /* *****************   Program Page start  *************************** */
+    .program-block-container .program-block .program-block-title {
+        font-size: 17px;
+    }
+    .program .section-flex {
+        height: auto;
+    }
+    .program .content {
+        padding: 0 0px;
+        padding-left: 0;
+    }
+    .program .content .para {
+        font-size: 20px;
+        max-width: 100%;
+        padding: 0 20px 40px;
+    }
+    .program .content .title {
+        font-size: 40px;
+        text-align: center;
+    }
+    .program .section-flex {
+        height: auto;
+        text-align: center;
+    }
+    .program .section-flex .section-left {
+        flex: 100%;
+    }
+    .program .section-flex .section-right {
+        flex: 100%;
+    }
+    .program .section-img-container {
+        width: 100%;
+        text-align: left;
+    }
+    .program .section-img {
+        width: 100%;
+        height: 100%;
+    }
+    .program .content {
+        margin: 0 auto;
+    }
+    /* ****************  Program 1 start   ******************* */
+    .program-1 {
+        height: auto;
+    }
+    .program-1 .content {
+        max-width: 100%;
+    }
+    .program-1 .content .title {
+        font-size: 40px;
+    }
+    .program-1 .section-flex .section-right {
+        height: 400px;
+    }
+    .program-1 .section-img-container {
+        width: 100%;
+        text-align: center!important;
+        height: 80%;
+    }
+    .program-1 .section-img {
+        position: initial;
+        top: initial;
+        left: initial;
+        transform: initial;
+    }
+    /*********************  Program 2 start   ******************  */
+    .program-2 {
+        height: auto;
+    }
+    .program-2 .content {
+        max-width: 100%;
+    }
+    .program-2 .content .title {
+        font-size: 40px;
+    }
+    .program-2 .section-flex .section-left {
+        height: 400px;
+        order: 1;
+    }
+    .program-2 .section-img-container {
+        width: 100%;
+        text-align: center!important;
+        height: 80%;
+    }
+    .program-2 .section-img {
+        position: initial;
+        top: initial;
+        right: initial;
+        transform: initial;
+    }
+    /********  Section 2 end   *********  */
+    /* *************** Section 7  ***************** */
+    .section-7 .carousel-inner {
+        height: 470px;
+        margin: 40px 0;
+    }
+    .section-7 .carousel-flex .carousel-right {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .section-7 .carousel-left img {
+        max-width: 260px;
+    }
+    .section-7 .carousel-indicators {
+        bottom: -15px;
+    }
+    /* *********************   Vision start   ************************** */
+    .vision {
+        padding: 30px 0;
+        text-align: center;
+    }
+    .vision .section-left {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .vision .title {
+        text-align: center;
+    }
+    .vision .title::after {
+        bottom: -8px;
+        left: 38%;
+    }
+    .vision .title::before {
+        bottom: -15px;
+        left: 47%;
+    }
+    .vision .para {
+        max-width: 100%;
+    }
+    .vision .section-img-container img {
+        width: 80%;
+    }
+    .designation-container {
+        left: 2%;
+    }
+    /* **************  Coach start   ***************** */
+    .coach {
+        padding: 60px 20px 40px;
+    }
+    .coach .block {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .title {
+        font-size: 36px;
+    }
+    .title::before {
+        left: 47%;
+    }
+    .title::after {
+        right: 44%;
+    }
+    .program-block-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .designation-container .name {
+        font-size: 20px;
+    }
+    .designation-container .designation {
+        font-size: 12px;
+    }
+    .section-7 .carousel-inner {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .para {
+        font-size: 14px;
+    }
+    header .slider-content h1 {
+        font-size: 24px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .title::before {
+        left: 44%;
+    }
+    .title::after {
+        right: 44%;
+    }
+    .vision .title::after {
+        left: 34%;
+    }
+    .vision .title::before {
+        left: 46%;
+    }
+    .program-block-container {
+        grid-template-columns: 1fr;
+    }
+    .section-flex {
+        padding: 0px 10px;
+    }
+    header .slider-content {
+        padding: 30px 0;
+    }
+    header .swiper-container {
+        height: 600px;
+    }
+    header .section-img-container .section-img {
+        max-height: 400px;
+    }
+    .section-3 {
+        margin-top: 100px;
+    }
+    /* *****************   Vision start  ********************* */
+    .designation-container {
+        position: absolute;
+        bottom: 10px;
+        background: var(--main-color);
+        padding: 20px 10px;
+    }
+    .designation-container .name {
+        font-size: 12px;
+    }
+    .designation-container .designation {
+        font-size: 8px;
+    }
+    /* ******   Vision end  ****** */
+    /* ***********  Section 4 img start   ************* */
+    .section-4 .image-grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 260px);
+        grid-gap: 10px;
+    }
+    .section-4 .image-grid .item {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        overflow: hidden;
+    }
+    .item:nth-child(1) {
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+    .item:nth-child(2) {
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
+    .item:nth-child(3) {
+        grid-column: 1/5;
+        grid-row: 3/4;
+    }
+    .item:nth-child(4) {
+        grid-column: 1/5;
+        grid-row: 4/5;
+    }
+    /* **********************   Program page start   ******************************* */
+    .program {
+        padding: 50px 0px 80px;
+    }
+    .program-1 .content .title {
+        font-size: 30px;
+    }
+    .program-1 .section-img {
+        max-width: 100%;
+    }
+    .program-2 .content .title {
+        font-size: 30px;
+    }
+    .program-2 .section-img {
+        max-width: 100%;
+    }
+    .program .content .para {
+        font-size: 14px;
+    }
+    /* **** Section 7 start  *** */
+    .section-7 .carousel-flex .carousel-right h4 {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    .section-5 .section-cover {
+        top: 75%;
+    }
+    .section-5 .section-content p {
+        font-size: 14px;
+    }
+    .contact-container .contact-content-container .contact-content p {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .vision .title {
+        font-size: 30px;
+    }
+    .section-5 .section-cover {
+        top: 80%;
+    }
+    .contact-container .contact-content-container .contact-content {
+        margin-left: 15px;
+    }
+    .contact-container .contact-content-container i {
+        font-size: 17px;
+    }
+    .contact-container .contact-content-container .contact-content h2 {
+        margin-bottom: 4px;
+        font-size: 18px;
+    }
+    .contact-container .contact-content-container .contact-content a {
+        max-width: 200px;
+    }
+    .contact-container .contact-content-container .contact-content p {
+        max-width: 300px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .title {
+        font-size: 26px;
+    }
+    .title::before {
+        left: 42%;
+        width: 100px;
+    }
+    .title::after {
+        right: 40%;
+        width: 100px;
+    }
+    .vision .title {
+        font-size: 26px;
+    }
+    .vision .subtitle {
+        font-size: 15px;
+    }
+    .vision .title::after {
+        left: 34%;
+    }
+    .vision .title::before {
+        left: 46%;
+    }
+    .coach .title {
+        margin-bottom: 25px;
+    }
+    .program {
+        padding: 50px 0;
+    }
+    .program-1 .content .title {
+        font-size: 27px;
+    }
+    .program-2 .content .title {
+        font-size: 27px;
+    }
+    .program .content .para {
+        font-size: 14px;
+    }
+    .section-3 {
+        margin-top: 0px;
+    }
+    .section-5 {
+        height: 620px;
+    }
+    .section-5 .section-content h1 {
+        font-size: 26px;
+    }
+    .section-5 .section-cover {
+        top: 75%;
+    }
+    .section-7 {
+        margin-top: 40px;
+    }
+}
